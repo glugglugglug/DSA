@@ -22,4 +22,9 @@ void insert(list_t*, int, int);
 void disp_list(list_t*);
 void free_list(list_t*);
 
+float eval(list_t*, int);
+void copy(list_t*, list_t*);
+void differentiate(list_t*, list_t*);
+float definite_integration(list_t*, list_t*, int, int);
+
 #endif
